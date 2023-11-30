@@ -1,0 +1,163 @@
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 30vw;
+}
+
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+h1 {
+  font-family: "Fugaz One", sans-serif;
+  font-size: 15cqb;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.line {
+  position: absolute;
+  background-color: black;
+  width: 580px;
+  height: 1px;
+  top: 33%;
+  left: 2.5%;
+}
+
+.h21 {
+  position: absolute;
+  font-family: "Fugaz One", sans-serif;
+  width: 200px;
+  right: 12%;
+  top: 46%;
+  z-index: 2;
+}
+
+.box {
+  width: 250px;
+  height: 100px;
+  display: flex;
+}
+
+.yellow {
+  position: absolute;
+  background-color: #e9ff23;
+  right: 11%;
+  top: 47%;
+  z-index: 1;
+}
+
+.box3 {
+  width: 170px;
+  height: 75px;
+  display: flex;
+}
+
+.black {
+  position: absolute;
+  background-color: black;
+  right: 20%;
+  top: 53%;
+}
+
+.vector {
+  position: absolute;
+  width: auto;
+  height: 50%;
+  z-index: 2;
+  right: -5%;
+  top: 21%;
+}
+
+.box2 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+.yellow2 {
+  position: absolute;
+  background-color: #e9ff23;
+  top: 125%;
+  left: 25%;
+}
+
+.frame {
+  position: absolute;
+  width: auto;
+  height: 75%;
+  top: 62%;
+  left: 5%;
+  z-index: 1;
+}
+
+.p1 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 5cqb;
+  width: 800px;
+}
+
+.p2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 5cqb;
+  font-weight: 600;
+  width: 800px;
+}
+
+.p3 {
+  margin: 8%;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.bag_kamara {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.sofa {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stol {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.ligge_sofa {
+  width: 50%;
+  transform: rotate(-90deg);
+  padding-left: 10%;
+  margin-left: 13%;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+.grid_1-12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5%;
+  gap: 5%;
+}
+
+.h22 {
+  font-family: "Fugaz One", sans-serif;
+  width: 200px;
+  z-index: 2;
+
+  margin-top: 5%;
+  margin-left: 5%;
+}
